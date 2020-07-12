@@ -1,0 +1,23 @@
+{
+  "name": "member-registration-node-postgres",
+  "version": "1.0.0",
+  "description": "This is a very simple node API that connects to a PostgreSQL db, storing and retrieving member information and registration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamaramihafez/member-registration-node-postgres.git"
+  },
+  "author": "Osama Hafez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osamaramihafez/member-registration-node-postgres/issues"
+  },
+  "homepage": "https://github.com/osamaramihafez/member-registration-node-postgres#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.0"
+  }
+}
